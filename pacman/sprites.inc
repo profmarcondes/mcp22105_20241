@@ -51,14 +51,14 @@ stop_animated_sprite:
 #=============================================================
 
 #=============================================================
-# char get_grid_element(row-y, column-x, grid_table* )
+# char get_grid_element(column_x, row_y, grid_table*)
 get_grid_element:
 
 	jr  $ra
 #=============================================================
 
 #=============================================================
-# draw_grid(width, height, grid_table* )
+# draw_grid(width, height, grid_table*)
 draw_grid:
 
 	jr   $ra
