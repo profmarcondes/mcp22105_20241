@@ -4,7 +4,7 @@
 #  sprite sprites[20];
 #  char sprite[49];
 #=============================================================
-# void draw_sprite(X, Y, sprite_id){
+# void draw_sprite(sprite_id, X, Y){
 #       char * ptr_sprite =  sprites[sprite_id];
 #       for(int i = 0; i < 49; i++){ 
 #			color = colors[*ptr_sprite];
