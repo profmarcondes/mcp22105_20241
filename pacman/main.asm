@@ -1,7 +1,7 @@
 .include "system.inc"
 
-#animated_sprite(pacman, 3, 119, 140, 0, 0)
-animated_sprite(pacman, 3, 64, 64, 0, 0)
+animated_sprite(pacman, 3, 119, 140, 0, 0)
+#animated_sprite(pacman, 3, 64, 64, 0, 0)
 animated_sprite(ghost, 2, 7, 7, 0, 0)
 
 mov_vector(input_move)
@@ -63,4 +63,4 @@ main_sleep:
 	
 	lw 	  $ra, 12($sp)
 	addiu $sp, $sp, 16
-	j $ra	
+	jr $ra	

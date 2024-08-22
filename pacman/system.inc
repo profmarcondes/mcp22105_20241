@@ -58,8 +58,8 @@ enable_keyboard_int:
 # void set_pixel(X, Y, color)
 set_pixel:
    la  $t0, FB_PTR
-   #mul $a1, $a1, FB_XRES 
-   sll $a1, $a1, 7 ## Otimização, multiplica por 2^8 (256)
+   mul $a1, $a1, FB_XRES 
+   #sll $a1, $a1, 8 ## Otimização, multiplica por 2^8 (256)
    add $a0, $a0, $a1
    sll $a0, $a0, 2
    add $a0, $a0, $t0
