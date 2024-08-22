@@ -1,6 +1,6 @@
 .eqv FB_PTR 0x10040000
-.eqv FB_XRES 256
-.eqv FB_YRES 256
+.eqv FB_XRES 128
+.eqv FB_YRES 128
 
 .eqv X_OFFSET  0
 .eqv Y_OFFSET  0
